@@ -1,0 +1,10 @@
+  </div>
+    <div class="sorriso2">
+        <img src="Sorriso 2.svg" alt="Sorriso 2">
+    </div>
+    <div class="sorriso3">
+        <img  src="Sorriso 3.svg" alt="Sorriso 3">
+    </div>
+    <div class="triste">
+        <img src="triste.svg" alt="triste">
+    </div>

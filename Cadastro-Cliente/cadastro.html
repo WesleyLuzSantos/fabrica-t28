@@ -1,0 +1,72 @@
+<html lang="pt-br">
+
+<head>
+    <title>Cadastro de Cliente</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="alerta">
+        <div>
+            <img src="tick.svg" alt="ícone do alerta">
+            <p>Mensagem do Alerta</p>
+        </div>
+        <img onclick="fecharAlerta()" src="close.svg" alt="Ícone de fechar">
+    </div>
+
+    <h1 class="titulo">Cadastro de Cliente</h1>
+
+    <form class="formulario">
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input id="nome" type="text" placeholder="EX: Jão da Silva">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="Ex: Jao@gmail.com">
+            </div>
+            <div>
+                <label for="cpf">CPF:</label>
+                <input id="cpf" type="text" placeholder="Ex:99.999.999-99">
+            </div>
+            <div>
+                <label for="estado">Estado</label>
+                <select id="estado">
+                    <option value="">Selecione um estado</option>
+                    <optgroup label="Sugerido">
+                        <Legend>Sugerido</Legend>
+                        <option value="MS">Mato Grosso do Sul</option>
+                    </optgroup>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="SP">São Paulo</option>
+                </select>
+        </fieldset>
+        </div>
+        <Fieldset>
+            <legend>Informações do curso</legend>
+            <div>
+                <input id="presencial" type="radio" value="1" name="modalidade">
+                <label for="presencial">Modalidade</label>
+            </div>
+            <div>
+                <input id="online" type="radio" value="2" name="modalidade">
+                <label for="online">Online</label>
+            </div>
+        </Fieldset>
+
+        <div class="botoes">
+            <button onclick="salvar()" type="button" class="btn-salvar">Salvar</button>
+
+        </div>
+
+    </form>
+    <pre id="resultado"></pre>
+
+</body>
+
+</html>

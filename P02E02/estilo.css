@@ -1,0 +1,88 @@
+body{
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+.sorriso{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.caixa1{
+    margin: 50px 50px;
+    padding: 5px;
+    text-align: center;
+    width: 30%;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: white;
+    border-top-left-radius: 0;
+    box-shadow: 1px 1px 10px grey;
+   
+}
+
+#pergunta{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 50px;
+    padding: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: rgb(255, 251, 141) ;
+    border-top-left-radius: 0;
+    box-shadow: 1px 1px 10px grey;
+    opacity: 0;
+
+}
+
+#resposta{
+    width: fit-content;
+    margin: 50px 50px;
+    padding: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: white ;
+    border-top-left-radius: 0;
+    box-shadow: 1px 1px 10px grey;
+    opacity: 0;
+}
+.paragrafo{
+    font-weight: bold;
+    color: grey;
+    margin-top: 100px;
+    text-align: center;
+
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+   }
+.botoes button{
+    padding: 25px;
+    border-color:rgb(196, 196, 196);
+    background-color: white;
+    border-style: solid;
+    margin-left: -3px;
+    outline: none;
+    
+}
+.lixeira{
+    display: block;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 100px;
+    width: 60px;
+    background-color: rgb(147, 147, 147);
+    border-style: solid;
+    
+     
+}
+.lixeira img{
+    width: 30px;
+    
+}
+.botoes button:active{
+    background: rgb(255, 251, 141) ;
+}
